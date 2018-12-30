@@ -1,0 +1,40 @@
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  background: rgba(255, 255, 255, .3);
+  transform: translate(50%, -50%);
+  border-radius: 3px;
+  &-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #74c7d5;
+    line-height: 1;
+    padding: 32px 66px;
+  }
+}
+
+.left-content {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.good-ideas {
+  font-size: 30px;
+}
+
+.comes {
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+.first {
+  font-size: 60px;
+  margin-bottom: 0;
+  font-weight: bold;
+
+}
+
+

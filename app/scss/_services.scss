@@ -1,0 +1,81 @@
+.header-services {
+  background: url("../img/services-bg.jpg") repeat-y top center;
+  padding-bottom: 82px;
+}
+
+.menu-box__item-link-services {
+  &:hover {
+    background: rgba(233, 92, 100, .4);
+  }
+}
+
+.wrap-services {
+  padding-top: 120px;
+}
+
+.services {
+  color: #fff;
+  text-align: center;
+  &__headline {
+    font-size: 60px;
+    padding-bottom: 45px;
+  }
+  &__paragraph-1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 25px;
+    &_transparent {
+      opacity: .4;
+    }
+  }
+  &__paragraph-2 {
+    font-size: 14px;
+  }
+}
+
+.services-cards {
+  padding-top: 115px;
+  flex-wrap: wrap;
+}
+
+.card-box {
+  flex-basis: 260px;
+  text-align: center;
+  color: #fff;
+  min-height: 400px;
+  background: rgba(195, 64, 75, .8);
+  border-radius: 5px;
+  padding-top: 45px;
+  margin: 10px 0;
+  &__img {
+    padding-bottom: 30px;
+  }
+  &__headline {
+    padding-bottom: 40px;
+  }
+}
+
+.external-circle {
+  padding: 5px;
+  border: 5px solid #fff;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.interior-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-magic, .fa-lightbulb, .fa-cogs, .fa-rocket {
+  font-size: 60px;
+  color: rgb(233, 92, 100);
+  display: block;
+}

@@ -1,0 +1,36 @@
+/*Адаптивное меню*/
+@media screen and (max-width: 767px){
+  .menu-box {
+    display: none;
+    &__item {
+      padding: 5px 0 0 0;
+    }
+    &__item-link {
+      text-align: right;
+    }
+  }
+  .burger-check {
+    display: block;
+  }
+  #burger-menu:checked ~ .navigation > .menu-box {
+    display: block;
+  }
+  .navigation {
+    top: 70px;
+    right: 15px;
+    position: absolute;
+  }
+}
+
+/*Адаптив блока Services*/
+
+@media screen and (max-width: 1080px){
+  .services-cards {
+    display: flex;
+    justify-content: space-evenly;
+    &:nth-child(4) {
+
+
+    }
+  }
+}
